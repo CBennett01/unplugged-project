@@ -104,8 +104,8 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   color: #e2e3ed;
 }
@@ -140,11 +140,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -178,6 +178,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a; 
   width: 100%;
@@ -186,20 +194,24 @@ header .content-wrapper {
 }
 
 header nav {
+  width: 60%;
+  font-weight: 700;
+  font-size: 1.125em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
   text-transform: uppercase;
-  width: 60%;
-  font-weight: 700;
-  font-size: 1.125em;
 }
 
 header nav ul {
-  display: flex;
-  justify-content: space-around;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
@@ -227,7 +239,7 @@ footer .social-icons {
 
 footer .social-icons p {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -239,7 +251,11 @@ footer .copyright {
 /* --------------- Mobile Styles -  Homepage --------------- */
 
 /* Hero Area */
+
 .hero-area {
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -291,6 +307,8 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -513,6 +531,10 @@ input[type=button] {
   
   header figure {
     width: 30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-flow: row wrap;
   }
 
   header nav {
@@ -576,6 +598,7 @@ header nav ul {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
