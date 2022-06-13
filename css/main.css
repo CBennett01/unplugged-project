@@ -334,6 +334,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /* Reviews */
 
 .reviews {
