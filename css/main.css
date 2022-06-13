@@ -669,6 +669,10 @@ header nav ul {
     .mission-content p {
       width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 45.5%;
+    }
   
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -736,7 +740,7 @@ header nav ul {
       /* Hero */
       .hero-area h1 {
         font-size: 3.75em;
-        width: 60%;
+        width: 80%;
       }
 
       /* Aside */
@@ -780,10 +784,14 @@ header nav ul {
 /* ==========================================================================
    About Page
    ========================================================================== */
+   .map figure {
+    padding-bottom: 37.5%;
+  }
+
    .mission h2,
    .contact-section .content-wrapper h2 {
-       width: 95%;
-       font-size: 3em; 
+      width: 95%;
+      font-size: 3em; 
    }
 
    .contact-content h4 {
