@@ -573,11 +573,10 @@ input[type=button] {
   }
 
   header nav {
-    width: 30%;
+    width: 20%;
   }
 
   header nav ul {
-    display: flex;
     justify-content: space-between;
   }
 
